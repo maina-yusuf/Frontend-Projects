@@ -1,0 +1,100 @@
+body{
+    background-color: hsl(0, 0%, 20%);
+    font-family:  'Inter';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    border-radius: 20px;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    width: 400px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.main-content img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 24px 16px 0px 16px;
+}
+
+.main-content h4{
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.main-content .item{
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    padding: 5px 5px;
+    border-radius: 4px;
+    text-align: center;
+    color: hsl(0, 0%, 100%) ;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-bottom: 16px;
+}
+
+.main-content .item:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: hsl(0, 0%, 12%);
+}
+
+.main-content .p1{
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+.main-content .p2{
+    color: hsl(0, 0%, 100%);
+    font-weight: lighter;
+}
+.main-content .button{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 40px 10px 40px;
+}
+
+.main-content .attribution{
+    font-size: 15px;
+    color: #68778d;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    margin: 0px 16px 16px 40px;
+    font-weight: 400;
+}
+@media screen and (max-width:320px){
+    .main-content{
+        padding: 5px;
+        border-radius: 20px;
+        width:300px;
+    
+    }
+    .main-content img{
+        width: 279px;
+        height: 200px;
+        border-radius: 20px;
+        margin: 16px 16px 24px 16px;
+    }
+    
+}
