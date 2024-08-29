@@ -1,0 +1,204 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family:  'Young Serif';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-content{
+    border-radius: 20px;
+    text-align: left;
+    background-color: hsl(0, 0%, 100%);
+    width: 400px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.main-content img{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin: 24px 16px 0px 16px;
+}
+.main-content .intro,
+.main-content .preptime,
+.main-content .ingredients,
+.main-content .prep,
+.main-content .table{
+    margin: 0px 16px 0px 16px;
+}
+
+
+
+.main-content h2{
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.main-content .intro p{
+   
+    font-size: 10px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: 500;
+    color: hsl(24, 5%, 18%);
+}
+
+.main-content .preptime{
+    background-color: hsl(330, 100%, 98%);
+    padding: 2px 5px 5px 0px;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%) ;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin-bottom: 16px;
+}
+.main-content .preptime h3{
+    color: hsl(332, 51%, 32%);
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.main-content .preptime ul{
+    color: hsl(332, 51%, 32%);
+    margin-top: -10px;
+}
+
+.main-content .preptime ul h4{
+    color:  hsl(24, 5%, 18%);
+    margin: 0px;
+    display: inline;
+}
+.main-content .preptime ul p{
+    color:  hsl(24, 5%, 18%);
+    display: inline;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.main-content .preptime ul li{
+    margin-bottom: 5px;
+}
+.main-content .ingredients h4{
+    color: hsl(14, 45%, 36%);
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+
+.main-content .ingredients ul{
+    color: hsl(332, 51%, 32%);
+    margin-top: -10px;
+    margin-left: -20px;
+}
+
+.main-content .ingredients p{
+    color: black;
+    margin-bottom: -8px;
+}
+
+.main-content .prep,
+.main-content .ingredients{
+    border-bottom: 1px rgb(184, 184, 184) solid;
+}
+
+.main-content .prep h3{
+    color: hsl(14, 45%, 36%);
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+
+.main-content .prep ol{
+    color: hsl(332, 51%, 32%);
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-bottom: 15px;
+}
+.main-content .prep ol h4{
+    color: hsl(24, 5%, 18%);
+    margin: 0px ;
+    display: inline;
+    line-height: 150%;
+    font-weight: 600;
+    font-size: 13px;
+}
+.main-content .prep ol p{
+    color: hsl(24, 5%, 18%);
+    margin: 0px;
+    display: inline;
+    font-size: 13px;
+}
+.main-content .table h4 {
+    color: hsl(14, 45%, 36%);
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: bold;
+    margin-bottom: 5px; 
+}
+.main-content .table p{
+    font-size: 11px;
+    font-weight:500;
+    color: hsl(24, 5%, 18%);
+}
+.main-content .table table {
+    border-collapse: collapse;
+    width: 100%; 
+    margin-bottom: 30px;
+}
+
+ 
+.main-content .table table td {
+    border-bottom: 0.5px solid rgb(184, 184, 184);
+    padding: 8px; 
+    text-align: left; 
+    font-size: 12px;
+
+}
+.main-content .table table th
+{
+    border-bottom: 0.5px solid rgb(184, 184, 184);
+    padding: 8px; 
+    text-align: left; 
+    color: hsl(24, 5%, 18%);
+    font-size: 13px;
+}
+.main-content .attribution{
+    font-size: 15px;
+    color: #68778d;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    margin: 0px 16px 16px 40px;
+    font-weight: 400;
+}
+@media screen and (max-width:320px){
+    .main-content{
+        padding: 5px;
+        border-radius: 20px;
+        width:300px;
+    
+    }
+    .main-content img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 16px 16px 24px 16px;
+    }
+    
+}
