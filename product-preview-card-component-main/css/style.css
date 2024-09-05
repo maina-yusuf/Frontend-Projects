@@ -1,0 +1,145 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family:  'Inter';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    padding: 0px;
+}
+.main-container img{
+    width: 50%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-right: 20px;
+}
+
+.main-container .mobilepic{
+    display: none;
+    width: 50%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-right: 20px;
+}
+.main-container .content{
+    margin-right: 0px;
+   
+}
+
+.main-container button {
+    margin-bottom: 30px;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-container button:hover{
+    background-color: hsl(158, 32%, 25%);
+    cursor: pointer;
+}
+.main-container .header p{
+    margin: 30px 0px 20px 0px;
+    font-style: "Montserrat";
+    font-weight: 500;
+    font-size: 18px;
+}
+.main-container .details{
+    margin-right: -10px;
+}
+
+.main-container .details h1{
+    color: hsl(212, 21%, 14%);
+    font-style: "Fraunces ";
+    font-weight: 700;
+    width: 70%;
+}
+.main-container .details p{
+    color: hsl(228, 12%, 48%);
+    font-style: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    width: 80%;
+}
+
+.main-container .price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: -30px 0px -10px 0px;
+}
+
+.main-container .price .p1{
+    color: hsl(158, 36%, 37%);
+    font-style: "Fraunces";
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.main-container .price .p2{
+    color: hsl(228, 12%, 48%);
+    font-style: "Montserrat";
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+@media screen and (max-width:426px) {
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border-radius: 7px;
+        
+    }
+    .main-container .deskimg{
+        display: none;
+    }
+    
+    .main-container .mobilepic{
+        display: block;
+        visibility: visible;
+        width: 100%;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 0px;
+        margin-right: 0px;
+    }
+    .main-container .content{
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main-container button {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .main-container .details h1{
+        width: 100%;
+    }
+    .main-container .details p{
+        width: 100%;
+    }
+}
+
+      
