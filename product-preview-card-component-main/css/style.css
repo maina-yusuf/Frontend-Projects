@@ -1,6 +1,5 @@
 body{
     background-color: hsl(30, 38%, 92%);
-    font-family:  'Inter';
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,7 +55,7 @@ body{
 }
 .main-container .header p{
     margin: 30px 0px 20px 0px;
-    font-style: "Montserrat";
+    font-style: 'Montserrat';
     font-weight: 500;
     font-size: 18px;
 }
@@ -66,13 +65,13 @@ body{
 
 .main-container .details h1{
     color: hsl(212, 21%, 14%);
-    font-style: "Fraunces ";
+    font-style: 'Fraunces';
     font-weight: 700;
     width: 70%;
 }
 .main-container .details p{
     color: hsl(228, 12%, 48%);
-    font-style: "Montserrat";
+    font-style: 'Montserrat';
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -88,14 +87,14 @@ body{
 
 .main-container .price .p1{
     color: hsl(158, 36%, 37%);
-    font-style: "Fraunces";
+    font-style: 'Fraunces';
     font-weight: 700;
     font-size: 25px;
     margin-right: 20px;
 }
 .main-container .price .p2{
     color: hsl(228, 12%, 48%);
-    font-style: "Montserrat";
+    font-style: 'Montserrat';
     font-weight: 500;
     font-size: 12px;
     text-decoration: line-through;
