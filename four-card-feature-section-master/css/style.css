@@ -1,0 +1,164 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+   
+    font-family: 'Poppins';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container .flex{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-container .card1{
+    width: 50%;
+    border-radius: 7px;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    box-shadow: 1px 2px 7px 1px hsl(229, 6%, 66%);
+    padding: 35px;
+    max-width: 350px;
+    transform: translateY(50%) ;
+    height: 250px;   
+}
+
+.main-container .card2{
+    width: 50%;
+    border-radius: 7px;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    box-shadow: 1px 2px 7px 1px hsl(229, 6%, 66%);
+    padding: 35px;
+    max-width: 350px;
+    height: 250px;   
+
+}
+
+.main-container .card3{
+    width: 50%;
+    border-radius: 7px;
+    border-top: 3px solid hsl(34, 97%, 64%);
+    box-shadow: 1px 2px 7px 1px hsl(229, 6%, 66%);
+    padding: 35px;
+    max-width: 350px;
+    transform: translateY(50%);
+    height: 250px;   
+
+}
+.main-container .card4{
+    width: 50%;
+    border-radius: 7px;
+    border-top: 3px solid hsl(180, 62%, 55%);
+    box-shadow: 1px 2px 7px 1px hsl(229, 6%, 66%);
+    padding: 35px;
+    max-width: 350px;
+    height: 250px;   
+
+}
+
+.main-container .card1 .icon,.main-container .card2 .icon,
+.main-container .card3 .icon,.main-container .card4 .icon {
+    padding: 30px 0px;
+    float: right;
+    margin: 0px;
+    
+}
+
+.main-container .header h2 {
+    margin: 30px 0px 10px 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+    font-weight: 300;
+    color: hsl(234,12%,34%);
+}
+
+.main-container .header h3 {
+    margin: 0px 0px 20px 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    /* font-weight: 600; */
+    font-size: 30px;
+    color: hsl(234, 12%, 34%);
+}
+.main-container .header p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    padding: 0px 230px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.main-container .card1 h5,.main-container .card2 h5,
+.main-container .card3 h5,.main-container .card4 h5 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 10px;
+}
+
+.main-container .card1 p,.main-container .card2 p,
+.main-container .card3 p,.main-container .card4 p {
+    font-weight: 400;
+    font-size: 14px;
+    color: hsl(229, 6%, 66%)
+
+}
+
+.attribution{
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:426px) {
+    
+.main-container .flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main-container .card1{
+    width: 70%;    
+    transform: translateY(0%) ;
+    height: 250px;   
+}
+.main-container .card3{
+    transform: translateY(0%);
+    width: 70%;
+}
+.main-container .card4{
+    width: 70%;
+}
+.main-container .card2{
+width: 70%;
+}
+.main-container .header h2 {
+    font-size: 22px;
+    font-weight: 300;
+}
+   
+.main-container .header h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.main-container .header p {
+    padding: 20px 5px;
+}
+
+}
+
+@media screen and (max-width:1100px) {
+    .main-container .card1{
+        transform: none;
+    }
+    .main-container .card3{
+        transform: none;
+    }
+}
